@@ -1,7 +1,7 @@
 
 
 .nav {
-    
+
     background-color: white;
     list-style-type: none;
     text-align: right;
@@ -28,7 +28,7 @@
 .logo {
     float: left;
     max-width: 500px;
-    
+
 }
 
 .title {
@@ -47,6 +47,55 @@
     position: absolute;
     top: 60%;
     left: 50%;
+}
+
+/*Content PN*/
+.about {
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+
+.services {
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Franklin Gothic Book";
+  text-align: center;
+  padding: 90px;
+}
+
+h3 {
+  font-family: "Franklin Gothic Book";
+}
+
+p {
+  font-family: "Raleway";
+  text-align: left;
+  padding-top: 40px;
+}
+
+.text {
+  font-family: "Raleway";
+  float: right;
 }
 
 .contact-form{ /* KN */
@@ -111,6 +160,6 @@
 
 .footer{
     text-align: center;
-    
-    
+
+
 }
