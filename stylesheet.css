@@ -198,6 +198,37 @@ a:link {
 	color: #E3FA92;
 }
 
+/*BOOKING - PN*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #8FC78F;
+}
+
+.container {
+  border-radius: 1px;
+  background-color: #aef2ae;
+  padding: 60px;
+}
+
 
 
 .footer{
