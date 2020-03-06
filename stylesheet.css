@@ -1,251 +1,158 @@
 
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+/* CSS Document */
+
+*{   
+	margin: 0;
+	padding: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+		
 
 }
 
-.nav {
+/*header*/
 
-    background-color: white;
-    list-style-type: none;
-    text-align: right;
-    margin: 0;
-    padding: 0;
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("ss.jpg");
+    height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
 }
-
-.nav li{
-    display: inline-block;
-    font-size: 20px;
-    padding: 45px;
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 110px;
 }
-
-.nav li a {
-    text-decoration: none;
-    color: black;
-}
-
-.nav li a:hover{
-    color:#D65A76;
-}
-
-
-.logo {
-    float: left;
-    max-width: 500px;
-
-}
-
-.title {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-}
-
-.button1 {
-    position:absolute;
-    top: 60%;
-    left: 45%;
-}
-
-.button2{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-}
-
-/*Content PN*/
-.about {
-  color: black;
-  text-align: center;
-  font-style: italic;
-}
-
-.services {
-  color: black;
-  text-align: center;
-  font-style: italic;
-}
-
-* {
-  box-sizing: border-box;
-
-}
-
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 60px;
-  text-align: center;
-}
-
-h1 {
-  font-family: "Book Antigua";
-  text-align: center;
-  padding: 90px;
-}
-
-h2 {
-  font-family: "Franklin Gothic Book";
-  text-align: center;
-  padding: 90px;
-}
-
-h3 {
-  font-family: "Franklin Gothic Book";
-}
-
-p {
-  font-family: "Raleway";
-  text-align: left;
-  padding-top: 40px;
-}
-
-.text {
-  font-family: "Raleway";
-  float: right;
-}
-
-.button {
-  border: 2px solid black;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.read {
-  border-color: #ef67c4;
-  color: #000000;
-  background-color: #ffffff;
-  font: "Raleway";
-}
-
-.read:hover {
-  background-color: #ef67c4;
-  color: #000000;
-}
-
-a:link {
-  text-decoration: none;
-  font: "Raleway";
-}
-
-.contact-form{ /* KN */
-	width: 90%;
-	max-height: 600px;
-	background: #ffd8f7;
-	position: absolute;
-	top: 66%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	padding: 30px, 40px;
-	box-sizing: border-box;
-	border-radius: 8px;
-	text-align: center;
-	box-shadow: 0 0 20px #000000b3;
-	font-family: "montserrat",serif;
-}
-
-.contact-form h1{ /* KN */
-	margin-top: 0;
-	font-weight: 200;
-}
-
-.txtb{ /* KN */
-	border: 1px solid gray;
-	margin: 8px 0;
-	padding: 12px 18px;
-	border-radius: 8px;
-}
-
-.txtb label{ /* KN */
-	display: block;
-	text-align: left;
-	color: #333;
-	text-transform: uppercase;
-	font-size: 14px;
-}
-
-.txtb input,.txtb textarea{ /* KN */
-	width: 100%;
-	border: none;
-	outline: none;
-	font-size: 18px;
-	margin-top: 6px;
-}
-
-.btn{ /* KN */
+		
+ul li {
 	display: inline-block;
-	background: #E39DCB;
-	padding: 14px 0;
+}
+	
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+	
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	
+}
+
+ul li.active a{
+	
+}
+
+.nails.logo img{
+	float: right;
+	width: 500px;
+	height: auto;
+
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	
+}
+
+.title{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title{
+	color: #fff;
+	font-size: 50px;
+	
+}
+
+.button{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+#fullpage {
+	height: 100vh;
+}
+
+#fullpage section {
+	height: 100vh;
+}
+
+#fullpage section h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 100vh;
+	font-size: 10em;
+}
+
+
+/*sectioner*/
+
+
+#fullpage section:nth-child(1)
+{
+background:  #FF73E5;
+}
+
+.p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+} 
+
+#fullpage section:nth-child(2)
+{
+background: #7C61F2;	
+}
+
+#fullpage section:nth-child(3)
+{
+background: #62FFA5;
+}
+
+#fullpage section:nth-child(4)
+{
+background: #FFF167;
+}
+
+
+
+/*footer*/
+
+
+.footer {
+	padding: 2px;
+	margin-top: 2100px;
+	margin-bottom: -60px;
 	color: white;
-	text-transform: uppercase;
-	cursor: pointer;
-	margin-top: 8px;
-	width: 100%;
-	font-size: 22px;
-}
-
-.btn:hover{ /* KN */
-	color: #E3FA92;
-}
-
-/*BOOKING - PN*/
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 12px 50px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #8FC78F;
-}
-
-.container {
-  border-radius: 1px;
-  background-color: #aef2ae;
-  padding: 60px;
-  width: 100%;
-
+	background-color: #333;
+	text-align: center;
+	border-top: 3px solid #F4BEC1;
 }
 
 
 
-.footer{
-    background: #ffffff;
-    margin-top: auto;
-    padding: 3em;
-	  width: 100%;
 
-}
-
-.logo-footer {
-
-}
-
-.find-us {
-  text-align: center;
-  font: "Raleway";
-}
