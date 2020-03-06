@@ -227,6 +227,8 @@ input[type=submit]:hover {
   border-radius: 1px;
   background-color: #aef2ae;
   padding: 60px;
+  width: 100%;
+
 }
 
 
