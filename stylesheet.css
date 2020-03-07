@@ -7,6 +7,7 @@
     text-align: right;
     margin: 0;
     padding: 0;
+    
 }
 
 .nav li{
@@ -21,7 +22,7 @@
 }
 
 .nav li a:hover{
-    color: blueviolet;
+    color: #FF004E;
 }
 
 
@@ -49,8 +50,18 @@
     left: 50%;
 }
 
+h2 {
+    text-align: center;
+}
+
+.omos {
+    position: relative;
+}
+
+p {
+    text-align: inherit;
+}
 .footer{
     text-align: center;
-    
     
 }
