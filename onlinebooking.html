@@ -1,19 +1,26 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Online booking</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link href="index.html" rel="stylesheet" type="text/css">
-	<link href="contact.html" rel="stylesheet" type="text/css">
-	<link href="services.html" rel="stylesheet" type="text/css">
+<title>Nails Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Nails Gallery yder skønhed og velvære, til selvstændige kvinder der vil gøre sig tilpas i sin hverdag eller en speciel lejlighed - det kan nailsgallery hjælpe med">
+
+<link href="css/font-awesome.css" rel="stylesheet"> <!--link til ikonerne-->
+<link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" /> <!-- link til vælge et tidspunkt-->
+<link href="css/style.css" rel='stylesheet' type='text/css' /> <!-- link til css -->
+	
+<!--fonts--> 
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<!--//fonts--> 
 	
 </head>
-
 <body>
+<!--background-->
+<header>
 	
-	<header>
-	 <div class="main">
+	<div class="main">
 	   <div class="logo">
 		<img src="nails.logo.png">
         <ul>
@@ -21,32 +28,94 @@
 			<a href="index.html">Home</a></li>
 		<li><a href="services.html">Services</a></li>
 		<li><a href="contact.html">Contact</a></li>
-		<li><a href="#">Online Booking</a></li>
+		<li><a href="onlinebooking.html">Online Booking</a></li>
 	   </ul>
 	  </div>	
 	 </div>
-	</header>
+	
+  <div class="titletext">
+      
+  </div>
 		
-	<div class="title">
-	<h1>Booking</h1>
-     </div>	
-	
-<!--section-->
-	   
-	   <div id="fullpage">
-		   <section><h1>Section1</h1></section>
-		   <section><h1>Section2</h1></section>
-		   <section><h1>Section3</h1></section>
-		   <section><h1>Section4</h1></section>
-	   </div>
-	
-<!--footer-->
-	   
-	<footer>
-		<div class="footer">
-			<p>Copyright &copy; 2020 Nails Gallery</p>
+    <div class="bg-agile">
+	<div class="book-reservation">
+			<form action="#" method="post">
+					<div class="form-date">
+						<label><i class="fa fa-user" aria-hidden="true"></i> Name :</label>
+						<input type="text" name="name" placeholder="Your name" required=""/>
+					</div>
+				
+					<div class="form-date">
+						<label><i class="fa fa-envelope" aria-hidden="true"></i> Email :</label>
+						<input type="email" name="email" placeholder="Your email" required="" />
+					</div>
+				
+					 <div class="form-date">
+						<label><i class="fa fa-calendar" aria-hidden="true"></i> date of meeting :</label>
+						<input  id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+					</div>
+				
+					<div class="form-time">
+						<label><i class="fa fa-clock-o" aria-hidden="true"></i> Time you meet up :</label>
+						<input type="text" name="Time" class="timepicker form-control" value="Pick Your Time">	
+				    </div>
+				
+				
+<div class="form-left bottom-w">
+	    <label><i class="fa fa-home" aria-hidden="true"></i> pick a salon near you :</label>
+							<select class="form-control">
+								<option>Odense, Rosengårdcentret</option>
+								<option>Bryggen</option>
+								<option>Aalborg Storcenter</option>
+								<option>Bruuns Galleri</option>
+								<option>Fields</option>
+								<option>Kolding Storcenter</option>
+							</select>
+					</div>
+					<div class="form-left">
+							<label><i class="fa fa-users" aria-hidden="true"></i> what service do you like :</label>
+							<select class="form-control">
+								<option>Pedicure</option>
+								<option>Manicure</option>
+								<option>Akryl</option>
+								<option>Design</option>
+								<option>Gelé</option>
+								<option>Solo Lakering</option>
+							</select>
+					</div>
+					<div class="clear"> </div>
+					<div class="make">
+						  <input type="submit" value="BOOK NOW">
+					</div>
+			</form>
 		</div>
-	</footer>
+   </div>
+ 
+	<!--Kalender date picker-->
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/wickedpicker.js"></script>
+			<script type="text/javascript">
+				$('.timepicker').wickedpicker({twentyFour: false});
+			</script>
+
+
+	<!-- Kalender -->
+				<link rel="stylesheet" href="css/jquery-ui.css" />
+				<script src="js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+		       </header>
+	<!--kalender-->
 	
+	<div class="bgg">
+	<img src="images/banner3.jpg" alt="">
+	</div>
+			
+			
+	
+
 </body>
 </html>
