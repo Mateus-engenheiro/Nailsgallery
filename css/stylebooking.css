@@ -73,12 +73,12 @@ ul li.active a{
 }
 
 .main{
-	width: 100%;
+	max-width: 1200px;
 	margin: auto;
 }
 
 .main img{
-	width: 36.1%;
+	
 }
 
 /*CONTENT*/
@@ -170,6 +170,7 @@ h3.tittle.reserve {
     width: 50%;
     float: left;
 }
+
 .form-time{
     width: 50%;
     float: left;
