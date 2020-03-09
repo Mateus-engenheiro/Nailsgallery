@@ -187,7 +187,7 @@ h3.tittle.reserve {
 }
 .book-reservation input[type="text"],.book-reservation input[type="date"],.book-reservation input[type="time"],.book-reservation input[type="email"] {
     width: 89%;
-    color:#FFFFFF;
+    color:#767676;
     outline: none;
     font-size: 1em;
 	line-height: 25px;
@@ -206,7 +206,7 @@ h3.tittle.reserve {
 	line-height: 25px;
     border-radius: 0;
     background: none;
-    color: #FFFFFF;
+    color: #767676;
     border: 2px solid #fff;
     font-family: 'Roboto', sans-serif;
 }
