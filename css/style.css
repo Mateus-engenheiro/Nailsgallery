@@ -528,6 +528,7 @@ h3.tittle.reserve {
 }
 /*--//responsive-design--*/
 
+
 /*Services Pernille & Ice*/
 div.gallery {
   margin: 90px;
@@ -549,6 +550,44 @@ div.gallery img {
 div.desc {
   padding: 30px;
   text-align: center;
+}
+
+.service h1 {
+	color: #000;
+}
+
+.service h2 {
+	text-align: center;
+}
+
+
+
+.service-1 h3 {
+	color: #000;
+	margin: 10px;
+}
+
+.service-2 {
+	text-align: right;
+	margin: 50px;
+}
+
+
+.service-1 p {
+	margin: 30px;
+}
+
+.service-2 p {
+	text-align: right;
+	margin: 50px;
+}
+
+.service-2 h3 {
+margin: 70px;
+}
+
+.service-3 p {
+	margin: 50px;
 }
 
 
