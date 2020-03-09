@@ -135,7 +135,7 @@ p {
 	position: relative;
 	top: 20px;
 	width:100%;
-	margin-bottom: 100px;
+	margin: auto 0;
 }
 h3.tittle.reserve {
  color: #a71930;
