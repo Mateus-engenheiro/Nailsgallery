@@ -555,33 +555,42 @@ div.desc {
 
 
 
-.service-1 h3 {
-	color: #000;
-	margin: 10px;
+/*Kunstige negle*/
+
+.service-1 p {
+	margin: 100px;
 }
 
+.service-1 h2 {
+	color: #000;
+	margin: 10px;
+	text-align: center;
+	font-size: 40px;
+}
+
+/*Pedicure*/
 .service-2 {
 	text-align: right;
 	margin: 50px;
 }
 
-
-.service-1 p {
-	margin: 30px;
+.service-2 h2 {
+	text-align: center;
+	margin: 100px;
+	font-size: 40px;
 }
 
-.service-2 p {
-	text-align: right;
-	margin: 50px;
-}
 
-.service-2 h3 {
-margin: 70px;
-}
-
+/*Manicure*/
 .service-3 p {
-	margin: 50px;
+	margin: 100px;
 }
+
+.service-3 h2 {
+	text-align: center;
+	font-size: 40px;
+}
+
 
 
 /*kontaktform Ice */
