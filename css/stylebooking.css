@@ -275,6 +275,11 @@ h3.tittle.reserve {
   	justify-content: center;
 }
 
+footer{
+	display: flex;
+	justify-content: center;
+}
+
 @media(max-width:1680px){
 
 }
