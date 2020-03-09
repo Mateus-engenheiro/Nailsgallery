@@ -137,10 +137,11 @@ p {
 	width:100%;
 	margin: auto 0;
 }
-h3.tittle.reserve {
- color: #a71930;
 
+h3.tittle.reserve {
+ color:#B972B4;
 }
+
 .reservation-info h4 {
     font-size: 3em;
     color: #800000;
@@ -175,10 +176,12 @@ h3.tittle.reserve {
     width: 50%;
     float: left;
 }
+
 .form-left {
     width: 50%;
     float: left;
 }
+
 .book-reservation label i{
     font-size: 1em;
     margin-right: 10px;
@@ -211,20 +214,6 @@ h3.tittle.reserve {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-.bgg img{
-	background-image: url("../images/banner3.jpg");
-
-		/* Full height */
-	width: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .make {
     margin: 1em auto 0;
     text-align: center;
@@ -238,7 +227,6 @@ h3.tittle.reserve {
     cursor: pointer;
     border: 2px solid #FFF5F5;
     outline: none;
-	color: #FFFFFF;
 	background: #5492c8;
     font-family: 'Roboto', serif;
 }
@@ -249,10 +237,6 @@ h3.tittle.reserve {
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
-}
-
-.make:hover{
-	
 }
 
 
@@ -266,9 +250,12 @@ h3.tittle.reserve {
 	color: #0C0A0A;
 }
 
-span {
-  content: "\2713";
-	font-size: 100px;
+.checkmark{
+	color: green;
+	font-size: 120px;
+}
+
+.smiley{
 	color: green;
 }
 
@@ -500,7 +487,7 @@ span {
 		width: 100%;
 		float: none;
 	}
-	.form-time-w3layouts {
+	.form-time {
 		width: 100%;
 		float: none;
 	}
