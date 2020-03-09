@@ -555,33 +555,47 @@ div.desc {
 
 
 
-.service-1 h3 {
-	color: #000;
-	margin: 10px;
-}
-
-.service-2 {
-	text-align: right;
-	margin: 50px;
-}
-
+/*Kunstige negle*/
 
 .service-1 p {
-	margin: 30px;
-}
-
-.service-2 p {
-	text-align: right;
 	margin: 50px;
+	font-size: 20px;
 }
 
-.service-2 h3 {
-margin: 70px;
+.service-1 h2 {
+	color: #FFD1D9;
+	margin: 50px;
+	text-align: center;
+	font-size: 40px;
 }
 
+/*Pedicure*/
+.service-2 p {
+	margin: 50px;
+	font-size: 20px;
+}
+
+.service-2 h2 {
+	color: #FFD1D9;
+	margin: 50px;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+/*Manicure*/
 .service-3 p {
 	margin: 50px;
+	font-size: 20px;
 }
+
+.service-3 h2 {
+	color: #FFD1D9;
+	margin: 50px;
+	text-align: center;
+	font-size: 40px;
+}
+
 
 
 /*kontaktform Ice */
@@ -666,7 +680,7 @@ slider {
 	background-color: #1f1f1f;
 	overflow: hidden;
 	position: absolute;
-	
+
 }
 
 
@@ -684,7 +698,7 @@ slide:nth-child(1) {
 	left: 0%;
 	animation-delay: -1s;
 	background-image: url("../images/bg.jpg");
-	
+
 	background-size: cover;
 	background-position: center;
 }
@@ -729,7 +743,3 @@ slide p {
 	30.0001% {left: -100%; width: 0%;}
 	100% {left: 100%; width: 0%;}
 }
-
-
-
-
