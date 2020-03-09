@@ -743,3 +743,11 @@ slide p {
 	30.0001% {left: -100%; width: 0%;}
 	100% {left: 100%; width: 0%;}
 }
+
+.about-us h1 {
+  color: #f4e488;
+}
+
+.our-video h1 {
+  color: #ffa169;
+}
