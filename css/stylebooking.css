@@ -28,6 +28,9 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+header ul{
+	width: 45%
+}
 
 header{
 	background-image:url("ss.jpg");
@@ -70,9 +73,12 @@ ul li.active a{
 }
 
 .main{
-	max-width: 1200px;
+	width: 100%;
 	margin: auto;
+}
 
+.main img{
+	width: 36.1%;
 }
 
 /*CONTENT*/
@@ -126,9 +132,8 @@ p {
 .book-reservation {
     background: #AEF2AE;
     padding: 35px;
-	z-index: 400;
 	position: relative;
-	top: 50px;
+	top: 100px;
 	width:100%;
 }
 h3.tittle.reserve {
@@ -304,10 +309,11 @@ h3.tittle.reserve {
 }
 @media(max-width:1024px){
 	.book-reservation {
-		padding: 28px;
+		width: 100%;
+		top: 200px;
 	}
 	.book-reservation label {
-		font-size: 13.4px;
+		font-size: 15.4px;
 		margin-left: 9px;
 		margin-bottom: 7px;
 	}
@@ -316,6 +322,32 @@ h3.tittle.reserve {
 	}
 	h1 {
 		font-size: 27px;
+	}
+	
+	.main{
+		width: 50%;
+		height: 30%;
+	}
+	
+	.main li{
+		width: 220%;
+		padding: 10px;
+		position: relative;
+		top: 10px;
+		font-size: 30px;
+		position: relative;
+		left: -280px;
+		text-align: center;
+	}
+	
+	.main img{
+		width: 76.1%;
+	}
+	
+	.main li{
+		font-size: 14.4px;
+		position: relative;
+		right: 155px
 	}
 }
 @media(max-width:991px){
@@ -339,17 +371,28 @@ h3.tittle.reserve {
 	}
 }
 @media(max-width:768px){
-	h1 {
-		margin: 3.5em 0;
+	
+	.main{
+		width: 50%;
+		height: 30%;
 	}
-	.copy.w3ls {
-		margin: 5.79em 3em;
+	
+	.main li{
+		width: 220%;
+		padding: 10px;
+		position: relative;
+		top: 50px;
+		font-size: 20px;
+		position: relative;
+		left: -220px;
+		text-align: center;
 	}
-	.copy p {
-		line-height: 31px;
+	
+	.main img{
+		width: 76.1%;
 	}
 }
-@media(max-width:767px){
+@media(max-width:768px){
 	h1 {
 		font-size: 23px;
 		word-spacing: 0px;
@@ -362,11 +405,22 @@ h3.tittle.reserve {
 	.book-reservation input[type="text"], .book-reservation input[type="date"], .book-reservation input[type="time"], .book-reservation input[type="email"] {
 		margin-bottom: 1.1em;
 	}
-	.copy.w3ls {
-		margin: 1em 3em;
-	}
+	
 	.book-reservation {
 		padding: 28px 28px 28px;
+	}
+	
+	.main {
+		font-size: 7.4px;
+	}
+	
+	.main li{
+		position: relative;
+		right:110px
+	}
+	
+	.main img{
+		width: 40%
 	}
 }
 @media(max-width:736px){
@@ -446,23 +500,94 @@ h3.tittle.reserve {
 	.book-reservation {
 		padding: 28px;
 	}
+	
+	
+.main{
+		font-size: 12px;
+		display: inline-block;
+		text-align: center;
+		width: 50%;
+		height: 30%;
+	}
+	
+	.main li{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+		position: relative;
+		top: -60px;
+	}
+	
+	.main img{
+		width: 86.1%;
+	}
+	
+	.form-time{
+		width: 100%
+	}
+	
 }
+
 @media(max-width:384px){
-	h1 {
-		font-size: 17px;
+	
+	.main{
+		width: 50%;
+		height: 25%;
 	}
-	.copy p {
-		font-size: 13px;
-		letter-spacing: 1px;
+	
+	.main li{
+		width: 500%;
+		padding: 10px;
+		position: relative;
+		top: -60px;
+		font-size: 11px;
+		position: relative;
+		left: -60px
 	}
-
+	
+	.main img{
+		width: 76.1%;
+	}
+	
+	.form-time{
+		width: 100%
+	}
+	
+	
 }
+
 @media(max-width:375px){
+	
+	.main{
+		width: 50%;
+		height: 25%;
+	}
+	
+	.main li{
+		width: 500%;
+		padding: 10px;
+		position: relative;
+		top: -60px;
+		font-size: 11px;
+		position: relative;
+		left: -60px
+	}
+	
+	.main img{
+		width: 76.1%;
+	}
+	
+	.form-time{
+		width: 100%
+	}
+	
 
 }
+
 @media(max-width:320px){
 	.book-reservation label {
-		font-size: 11.4px;
+		font-size: 10px;
 		margin-left: 6px;
 		margin-bottom: 6px;
 	}
@@ -485,9 +610,32 @@ h3.tittle.reserve {
 	.make input[type=submit] {
 		margin-top: 1em;
 	}
-	.copy.w3ls {
-		margin: 1em 1.5em;
+	
+	.main{
+		width: 50%;
+		height: 25%;
 	}
+	
+	.main li{
+		width: 600%;
+		padding: 10px;
+		position: relative;
+		top: -60px;
+		font-size: 11px;
+		position: relative;
+		left: -60px
+	}
+	
+	.main img{
+		width: 76.1%;
+	}
+	
+	.form-time{
+		width: 100%
+	}
+	
+	
+	
 }
 /*--//responsive-design--*/
 
