@@ -6,7 +6,7 @@ body{
     -o-background-size: cover;
     -ms-background-size: cover;
     background-attachment: fixed;
-	background-color: #F4F4F4;
+	background-color: #848484;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -130,11 +130,12 @@ p {
     margin-top: 8em;
 }
 .book-reservation {
-    background: #AEF2AE;
+    background: #89738B;
     padding: 35px;
 	position: relative;
-	top: 100px;
+	top: 20px;
 	width:100%;
+	margin-bottom: 100px;
 }
 h3.tittle.reserve {
  color: #a71930;
