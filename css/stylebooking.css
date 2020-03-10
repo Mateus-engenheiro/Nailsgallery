@@ -333,7 +333,9 @@ footer{
 @media(max-width:1024px){
 	.book-reservation {
 		width: 100%;
-		top: 200px;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
 	}
 	.book-reservation label {
 		font-size: 15.4px;
@@ -353,24 +355,13 @@ footer{
 	}
 	
 	.main li{
-		width: 220%;
-		padding: 10px;
-		position: relative;
-		top: 10px;
+		display: flex;
+		justify-content: center;
 		font-size: 30px;
-		position: relative;
-		left: -280px;
-		text-align: center;
 	}
 	
 	.main img{
 		width: 76.1%;
-	}
-	
-	.main li{
-		font-size: 14.4px;
-		position: relative;
-		right: 155px
 	}
 }
 @media(max-width:991px){
@@ -406,7 +397,6 @@ footer{
 		position: relative;
 		top: 50px;
 		font-size: 20px;
-		position: relative;
 		left: -220px;
 		text-align: center;
 	}
@@ -438,12 +428,13 @@ footer{
 	}
 	
 	.main li{
-		position: relative;
-		right:110px
+		display: flex;
+		justify-content: center;
+		text-align: center;
 	}
 	
 	.main img{
-		width: 40%
+		width: 50%;
 	}
 }
 @media(max-width:736px){
@@ -518,32 +509,32 @@ footer{
 		margin-top: 1.5em;
 	}
 	.book-reservation select.form-control {
-		width: 98%;
+		width: 90%;
 	}
 	.book-reservation {
-		padding: 28px;
+		top: 0px;
 	}
 	
 	
 .main{
 		font-size: 12px;
-		display: inline-block;
-		text-align: center;
-		width: 50%;
-		height: 30%;
+		display: flex;
+		justify-content: center;
 	}
 	
 	.main li{
-		display: inline-block;
-		text-align: center;
-		width: 100%;
-		padding: 10px;
+		display: flex;
+		justify-content: center;
 		position: relative;
-		top: -60px;
+		top: -100px;
+		font-size: 100%
+		
 	}
 	
 	.main img{
-		width: 86.1%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 	
 	.form-time{
@@ -554,27 +545,36 @@ footer{
 
 @media(max-width:384px){
 	
+	.book-reservation {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
+	}
+	.book-reservation label {
+		font-size: 15.4px;
+		margin-left: 9px;
+		margin-bottom: 7px;
+	}
+	.book-reservation label i {
+		margin-right: 6px;
+	}
+	h1 {
+		font-size: 27px;
+	}
+	
 	.main{
-		width: 50%;
-		height: 25%;
+		height: 60%;
 	}
 	
 	.main li{
-		width: 500%;
-		padding: 10px;
-		position: relative;
-		top: -60px;
-		font-size: 11px;
-		position: relative;
-		left: -60px
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
 	}
 	
 	.main img{
-		width: 76.1%;
-	}
-	
-	.form-time{
-		width: 100%
+		width: 100%;
 	}
 	
 	
@@ -582,79 +582,71 @@ footer{
 
 @media(max-width:375px){
 	
+	.book-reservation {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
+	}
+	.book-reservation label {
+		font-size: 15.4px;
+		margin-left: 9px;
+		margin-bottom: 7px;
+	}
+	.book-reservation label i {
+		margin-right: 6px;
+	}
+	h1 {
+		font-size: 27px;
+	}
+	
 	.main{
-		width: 50%;
-		height: 25%;
+		height: 60%;
 	}
 	
 	.main li{
-		width: 500%;
-		padding: 10px;
-		position: relative;
-		top: -60px;
-		font-size: 11px;
-		position: relative;
-		left: -60px
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
 	}
 	
 	.main img{
-		width: 76.1%;
+		width: 100%;
 	}
-	
-	.form-time{
-		width: 100%
-	}
-	
 
 }
 
 @media(max-width:320px){
+	.book-reservation {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
+	}
 	.book-reservation label {
-		font-size: 10px;
-		margin-left: 6px;
-		margin-bottom: 6px;
+		font-size: 15.4px;
+		margin-left: 9px;
+		margin-bottom: 7px;
+	}
+	.book-reservation label i {
+		margin-right: 6px;
 	}
 	h1 {
-		line-height: 28px;
-		margin: 1.2em 0 1em;
-	}
-	.book-reservation input[type="text"], .book-reservation input[type="date"], .book-reservation input[type="time"], .book-reservation input[type="email"] {
-		font-size: 14px;
-	}
-	.book-reservation {
-		padding: 25px;
-	}
-	.book-reservation input[type="text"], .book-reservation input[type="date"], .book-reservation input[type="time"], .book-reservation input[type="email"] {
-		width: 89%;
-	}
-	.book-reservation select.form-control {
-		width: 100%;
-	}
-	.make input[type=submit] {
-		margin-top: 1em;
+		font-size: 27px;
 	}
 	
 	.main{
-		width: 50%;
-		height: 25%;
+		height: 60%;
 	}
 	
 	.main li{
-		width: 600%;
-		padding: 10px;
-		position: relative;
-		top: -60px;
-		font-size: 11px;
-		position: relative;
-		left: -60px
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
 	}
 	
 	.main img{
-		width: 76.1%;
-	}
-	
-	.form-time{
-		width: 100%
+		width: 100%;
 	}
 	
 	
@@ -709,7 +701,6 @@ width: 100%;
 border: none;
 background: none;
 outline: none;
-font size: 18px;
 margin-top: 6px;
 }
 .btn{
