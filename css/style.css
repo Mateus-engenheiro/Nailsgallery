@@ -601,7 +601,6 @@ div.desc {
 /*kontaktform Ice */
 .contact-form{
 	width: 85%;
-	max: 600px;
 	background: #ffffff;
 	position: absolute;
 	top: 60%;
@@ -644,7 +643,6 @@ width: 100%;
 border: none;
 background: none;
 outline: none;
-font size: 18px;
 margin-top: 6px;
 }
 .btn{
