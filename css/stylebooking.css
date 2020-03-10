@@ -29,7 +29,7 @@ h1 {
 }
 
 header ul{
-	width: 45%
+	width: 45%;
 }
 
 header{
@@ -130,7 +130,7 @@ p {
     margin-top: 8em;
 }
 .book-reservation {
-    background: #5492c8;
+    background: #aef2ae;
     padding: 35px;
 	position: relative;
 	top: 20px;
@@ -227,7 +227,7 @@ h3.tittle.reserve {
     cursor: pointer;
     border: 2px solid #FFF5F5;
     outline: none;
-	background: #5492c8;
+	background: #aef2ae;
     font-family: 'Roboto', serif;
 }
 .make input[type=submit]:hover {
