@@ -420,7 +420,12 @@ footer{
 	}
 	
 	.book-reservation {
-		padding: 28px 28px 28px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
+		position: relative;
+		top: 100px;
 	}
 	
 	.main {
@@ -512,14 +517,20 @@ footer{
 		width: 90%;
 	}
 	.book-reservation {
-		top: 0px;
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
+		position: absolute;
+		top: 400px;
 	}
 	
 	
 .main{
-		font-size: 12px;
+		width: 100%;
 		display: flex;
 		justify-content: center;
+		font-size: 100%;
 	}
 	
 	.main li{
@@ -565,6 +576,10 @@ footer{
 	
 	.main{
 		height: 60%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
 	}
 	
 	.main li{
@@ -583,7 +598,7 @@ footer{
 @media(max-width:375px){
 	
 	.book-reservation {
-		width: 100%;
+		width: 90%;
 		display: flex;
 		justify-content: center;
 		font-size: 100%;
@@ -602,6 +617,10 @@ footer{
 	
 	.main{
 		height: 60%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
 	}
 	
 	.main li{
@@ -618,7 +637,7 @@ footer{
 
 @media(max-width:320px){
 	.book-reservation {
-		width: 100%;
+		width: 90%;
 		display: flex;
 		justify-content: center;
 		font-size: 100%;
@@ -636,7 +655,10 @@ footer{
 	}
 	
 	.main{
-		height: 60%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 100%;
 	}
 	
 	.main li{
