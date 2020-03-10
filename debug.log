@@ -101,3 +101,5 @@
 [0309/233216.253:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0309/233332.154:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0310/002150.888:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0310/090523.551:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0310/090711.575:ERROR:crash_report_database_win.cc(469)] failed to stat report
