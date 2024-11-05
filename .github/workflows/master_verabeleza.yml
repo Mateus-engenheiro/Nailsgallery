@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v2
       with:
         registry: https://unhas.azurecr.io/
-        username: ${{ secrets.AzureAppService_ContainerUsername_a7f82c9a7f7545cd9fdd4613e662f3d3 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_5cc46278a55c4337ba6a0bb65d3bd49e }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_e2042de4a81a4958b9fb13613b36ccd9 }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_06af9d37b8fb4eecb1d38c14981d4534 }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: unhas.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_a7f82c9a7f7545cd9fdd4613e662f3d3 }}/img:${{ github.sha }}
+        tags: unhas.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_e2042de4a81a4958b9fb13613b36ccd9 }}/mcr.microsoft.com/appsvc/staticsite:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'verabeleza'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d3ca72f08ba74ec29253dd2ac261e3ed }}
-        images: 'unhas.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_a7f82c9a7f7545cd9fdd4613e662f3d3 }}/img:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a280ae456e3540c7a61212febc2052c5 }}
+        images: 'unhas.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_e2042de4a81a4958b9fb13613b36ccd9 }}/mcr.microsoft.com/appsvc/staticsite:${{ github.sha }}'
